@@ -1,1 +1,15 @@
-
+*DATA FILE (max. 14 characters)*
+../training_regression.txt
+*TESTING FILE (max. 14 characters)*
+../testing_regression.txt
+*MODEL INFORMATION*
+500 - Number of snp
+50.0 -%SNPs at each iter (mtry)
+0.01 -smoothing parameter
+*INFORMATION ON THE THE TRAIT TO BE ANALYZED*
+FCR            - Name of the trait to be analyzed
+0 - '1' if missed data trait; '0' if not missed data. IF '1': introduce value to identify missed records in the next line.
+*MAX NUMBER OF ROUNDS
+1000
+*TYPE OF WEAK LEARNER USED: NPR=non-parametric regression. OLS=Ordinary least square
+OLS
