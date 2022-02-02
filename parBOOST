@@ -1,7 +1,7 @@
 *DATA FILE (max. 14 characters)*
-data/training_regression.data
+"data/training_regression.txt"
 *TESTING FILE (max. 14 characters)*
-data/testing_regression.data
+"data/testing_regression.txt"
 *MODEL INFORMATION*
 500 - Number of snp
 50.0 -%SNPs at each iter (mtry)
