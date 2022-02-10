@@ -21,6 +21,7 @@ Linux .
 It is also possible to clone the repository and compile the source code (e.g. with [gfortran](https://gcc.gnu.org/wiki/GFortranBinaries)):
 ```
 mkdir GWP
+cd GWP
 git clone https://github.com/ogrecio/RanBoost.git
 cd RanBoost
 gfortran src/L2Boost.f90 -o L2Boost.x
